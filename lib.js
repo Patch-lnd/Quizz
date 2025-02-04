@@ -190,6 +190,48 @@ var Question = function (questionObj) {
         }
       ]
     },
+     {
+      text: "Quels sont les extensions relatives au fichers texte ?",
+      answers: [
+        {
+          text: "doc",
+          isCorrect: false
+        },
+        {
+          text: "wav",
+          isCorrect: false
+        },
+        {
+          text: "txt",
+          isCorrect: true
+        },
+        {
+          text: "avif",
+          isCorrect: false
+        }
+      ]
+    },
+      {
+      text: "La plus petite unité de stockage d'un ordinateur ?",
+      answers: [
+        {
+          text: "KB",
+          isCorrect: false
+        },
+        {
+          text: "Bit",
+          isCorrect: true
+        },
+        {
+          text: "Octets",
+          isCorrect: false
+        },
+        {
+          text: "MB",
+          isCorrect: false
+        }
+      ]
+    },
     {
       text: "Lequel est un hardware ?",
       answers: [
