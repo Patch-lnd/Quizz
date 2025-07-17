@@ -1,6 +1,3 @@
-//
-// lib/lib.js
-//
 var Question = function (questionObj) {
     this.value = {
       text: "Question",
@@ -677,7 +674,7 @@ var Question = function (questionObj) {
   ];
   
   // variables initialization
-  let questions = [];
+  let question = []
   let score = 0,
     answeredQuestions = 0;
   let appContainer = document.getElementById("questions-container");
