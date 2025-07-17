@@ -140,7 +140,7 @@
         },
         {
           text: "C--",
-          isCorrect: true
+          isCorrect: false
         },
         {
           text: "Java",
@@ -194,12 +194,12 @@
         text: "Quel est l'acronyme de 'HTML' ?",
         answers: [
           {
-            text: "HyperText Markup Language",
-            isCorrect: true
-          },
-          {
             text: "HighText Markup Language",
             isCorrect: false
+          },
+            {
+            text: "HyperText Markup Language",
+            isCorrect: true
           },
           {
             text: "Hyper Transfer Markup Language",
@@ -236,16 +236,16 @@
         text: "Quel est le principal composant d'un ordinateur qui exécute des instructions de programmes ?",
         answers: [
           {
-            text: "Processeur",
-            isCorrect: true
-          },
-          {
             text: "Mémoire vive",
             isCorrect: false
           },
           {
             text: "Disque dur",
             isCorrect: false
+          },
+           {
+            text: "Processeur",
+            isCorrect: true
           },
           {
             text: "Carte graphique",
@@ -299,10 +299,6 @@
         text: "Quelle est la principale différence entre un SSD et un HDD ?",
         answers: [
           {
-            text: "Le SSD est plus rapide et ne contient pas de pièces mobiles",
-            isCorrect: true
-          },
-          {
             text: "Le SSD est plus lent que le HDD",
             isCorrect: false
           },
@@ -313,6 +309,10 @@
           {
             text: "Le HDD est sans fil, alors que le SSD nécessite un câble",
             isCorrect: false
+          },
+           {
+            text: "Le SSD est plus rapide et ne contient pas de pièces mobiles",
+            isCorrect: true
           }
         ]
       },
@@ -341,16 +341,16 @@
         text: "Quel est le nom du célèbre moteur de recherche créé par Google ?",
         answers: [
           {
-            text: "Google Search",
-            isCorrect: true
-          },
-          {
             text: "Google Explorer",
             isCorrect: false
           },
           {
             text: "Google Find",
             isCorrect: false
+          },
+           {
+            text: "Google Search",
+            isCorrect: true
           },
           {
             text: "Google Discover",
@@ -383,16 +383,16 @@
         text: "Quel est l'acronyme de 'USB' ?",
         answers: [
           {
-            text: "Universal Serial Bus",
-            isCorrect: true
-          },
-          {
             text: "Uniform Serial Bus",
             isCorrect: false
           },
           {
             text: "Universal Service Bus",
             isCorrect: false
+          },
+          {
+            text: "Universal Serial Bus",
+            isCorrect: true
           },
           {
             text: "Universal Speed Bus",
@@ -404,10 +404,6 @@
         text: "Qu'est-ce qu'un 'bug' en informatique ?",
         answers: [
           {
-            text: "Un défaut ou une erreur dans un programme",
-            isCorrect: true
-          },
-          {
             text: "Un type de logiciel malveillant",
             isCorrect: false
           },
@@ -418,19 +414,23 @@
           {
             text: "Un type de fichier",
             isCorrect: false
+          },
+          {
+            text: "Un défaut ou une erreur dans un programme",
+            isCorrect: true
           }
         ]
       },
       {
         text: "Que signifie l'acronyme 'RAM' ?",
         answers: [
+           {
+            text: "Read Access Memory",
+            isCorrect: false
+          },
           {
             text: "Random Access Memory",
             isCorrect: true
-          },
-          {
-            text: "Read Access Memory",
-            isCorrect: false
           },
           {
             text: "Rapid Access Memory",
@@ -445,17 +445,17 @@
       {
         text: "Quel est le nom du système d'exploitation développé par Apple pour les ordinateurs ?",
         answers: [
-          {
-            text: "macOS",
-            isCorrect: true
-          },
-          {
+           {
             text: "Windows",
             isCorrect: false
           },
           {
             text: "Linux",
             isCorrect: false
+          },
+           {
+            text: "macOS",
+            isCorrect: true
           },
           {
             text: "Android",
@@ -488,10 +488,6 @@
         text: "Quel format de fichier est utilisé pour les images vectorielles ?",
         answers: [
           {
-            text: "SVG",
-            isCorrect: true
-          },
-          {
             text: "JPEG",
             isCorrect: false
           },
@@ -502,6 +498,10 @@
           {
             text: "BMP",
             isCorrect: false
+          },
+          {
+            text: "SVG",
+            isCorrect: true
           }
         ]
       },
@@ -509,12 +509,12 @@
         text: "Quel est l'objectif principal d'un antivirus ?",
         answers: [
           {
-            text: "Protéger l'ordinateur contre les logiciels malveillants",
-            isCorrect: true
-          },
-          {
             text: "Améliorer la vitesse de l'ordinateur",
             isCorrect: false
+          },
+          {
+            text: "Protéger l'ordinateur contre les logiciels malveillants",
+            isCorrect: true
           },
           {
             text: "Optimiser les performances du disque dur",
